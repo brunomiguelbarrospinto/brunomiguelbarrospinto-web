@@ -1,7 +1,7 @@
-### Hi there, I'm [name] <!--  - aka [codeSTACKr][website]--> 👋
+### Hi there, I'm Bruno Miguel Barros Pinto <!--  - aka [][website]--> 👋
 
-<!--[![Website](https://img.shields.io/website?label=codeSTACKr.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://codestackr.com) -->
-[![Twitter Follow](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
+<!--[![Website](https://img.shields.io/website?label=.com&style=for-the-badge&url=https%3A%2F%2F.com)](https://.com) -->
+[![Twitter Follow](https://img.shields.io/twitter/follow/?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2F&screen_name=)
 
 ## I'm a Frontend Developer!!
 
@@ -13,15 +13,15 @@
 
 ### Spotify Playing 🎧
 
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="Bruno Miguel Spotify Playing" width="350" />](https://open.spotify.com/user/bmbp2009)
+[<img src="https://now-playing-.vercel.app/api/spotify-playing" alt="Bruno Miguel Spotify Playing" width="350" />](https://open.spotify.com/user/bmbp2009)
 
 ### Connect with me:
 
-<!--[<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website] -->
-[<img align="left" alt="[name] | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="[name] | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="[name] | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="[name] | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+<!--[<img align="left" alt=".com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website] -->
+[<img align="left" alt="Bruno Miguel Barros Pinto | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
+[<img align="left" alt="Bruno Miguel Barros Pinto | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="Bruno Miguel Barros Pinto | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="Bruno Miguel Barros Pinto | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
 
@@ -49,7 +49,7 @@
 <br />
 
 [name]: Bruno Miguel Barros Pinto
-[website]: https://codeSTACKr.com
+[website]: https://.com
 [twitter]: https://twitter.com/brunombarrosp
 [youtube]: https://www.youtube.com/channel/UCFeccYaff04cRtEfinFITjw
 [instagram]: https://instagram.com/brunomiguelbarrospinto
