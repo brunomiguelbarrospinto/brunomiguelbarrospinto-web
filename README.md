@@ -1,11 +1,9 @@
-### Hi there, I'm Bruno Miguel Barros Pinto <!--  - aka [][website]--> 👋
+### Hi there, I'm [name] <!--  - aka [codeSTACKr][website]--> 👋
 
-<!--[![Website](https://img.shields.io/website?label=.com&style=for-the-badge&url=https%3A%2F%2F.com)](https://.com) -->
-[![Twitter Follow](https://img.shields.io/twitter/follow/?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2F&screen_name=)
+[![Twitter Follow](https://img.shields.io/twitter/follow/brunombarrosp?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=&screen_name=brunombarrosp)
 
 ## I'm a Frontend Developer!!
 
-<!--- - 🔭 I just launched my first course: [Become A VS Code SuperHero!][course]! -->
 - 🌱 I’m currently learning TypeScript 🤣
 - 👯 I’m looking to collaborate with other content
 - 🥅 2021 Goals: Create a simple YouTube channel to share knowledges
@@ -13,11 +11,10 @@
 
 ### Spotify Playing 🎧
 
-[<img src="https://now-playing-.vercel.app/api/spotify-playing" alt="Bruno Miguel Spotify Playing" width="350" />](https://open.spotify.com/user/bmbp2009)
+[<img src="https://now-playing-bmbp2009.vercel.app/api/spotify-playing" alt="Bruno Miguel Spotify Playing" width="350" />](https://open.spotify.com/user/bmbp2009)
 
 ### Connect with me:
 
-<!--[<img align="left" alt=".com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website] -->
 [<img align="left" alt="Bruno Miguel Barros Pinto | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
 [<img align="left" alt="Bruno Miguel Barros Pinto | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="Bruno Miguel Barros Pinto | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
@@ -49,7 +46,6 @@
 <br />
 
 [name]: Bruno Miguel Barros Pinto
-[website]: https://.com
 [twitter]: https://twitter.com/brunombarrosp
 [youtube]: https://www.youtube.com/channel/UCFeccYaff04cRtEfinFITjw
 [instagram]: https://instagram.com/brunomiguelbarrospinto
