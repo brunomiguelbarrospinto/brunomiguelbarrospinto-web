@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  nitro: {
+    firebase: {
+      gen: 2,
+      // ...
+    },
+  },
   devtools: { enabled: true },
   runtimeConfig: {
     // The private keys which are only available server-side
