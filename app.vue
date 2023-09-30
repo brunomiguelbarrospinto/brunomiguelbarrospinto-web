@@ -5,14 +5,20 @@
         <ul>
           <li><NuxtLink to="/">Index</NuxtLink></li>
           <li><NuxtLink to="/test">Test</NuxtLink></li>
-          <li><NuxtLink to="/posts/test-slug">Post test slug</NuxtLink></li>
+          <li>
+            <NuxtLink to="/posts/test-slug"
+              >Post test-slug not valid or exist</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink to="/posts/bruno">Post bruno valid or exist</NuxtLink>
+          </li>
         </ul>
       </nav>
     </header>
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-    <NuxtWelcome />
   </div>
 </template>
 
