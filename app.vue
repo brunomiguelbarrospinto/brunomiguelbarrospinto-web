@@ -14,6 +14,11 @@
           <li>
             <NuxtLink to="/posts/bruno">Post bruno valid or exist</NuxtLink>
           </li>
+          <li>
+            <NuxtLink to="/tools/ratio-padding-calculator"
+              >Ratio padding calculator</NuxtLink
+            >
+          </li>
         </ul>
       </nav>
     </header>
