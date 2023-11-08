@@ -33,6 +33,12 @@ import "~/assets/css/styles.css";
 
 const runtimeConfig = useRuntimeConfig();
 const appConfig = useAppConfig();
+useHead({
+  htmlAttrs: { class: "antialiased" },
+  bodyAttrs: {
+    class: "",
+  },
+});
 
 console.log(runtimeConfig);
 console.log(appConfig);
