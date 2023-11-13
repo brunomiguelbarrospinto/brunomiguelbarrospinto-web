@@ -1,6 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "dayjs-nuxt", "nuxt-icon", "@nuxtjs/strapi"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "dayjs-nuxt",
+    "nuxt-icon",
+    "@nuxtjs/strapi",
+    "nuxt-gtag",
+  ],
+  gtag: {
+    id: "",
+    // Additional configuration for the Google Analytics 4 property
+    config: {
+      page_title: "Bruno Miguel Barros Pinto",
+    },
+  },
   nitro: {
     firebase: {
       gen: 2,

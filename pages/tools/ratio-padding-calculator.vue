@@ -47,6 +47,13 @@ definePageMeta({
   layout: "simple",
 });
 
+const { gtag } = useGtag();
+// SSR-ready
+gtag("event", "screen_view", {
+  app_name: "Bruno Miguel Barros Pinto",
+  screen_name: "ratio-padding-calculator",
+});
+
 const width = ref(0);
 const height = ref(0);
 const output = ref(0);
