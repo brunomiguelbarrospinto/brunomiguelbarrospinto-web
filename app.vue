@@ -40,8 +40,8 @@ useHead({
   },
 });
 
-console.log(runtimeConfig);
-console.log(appConfig);
+// console.log(runtimeConfig);
+// console.log(appConfig);
 </script>
 
 <style lang="scss">

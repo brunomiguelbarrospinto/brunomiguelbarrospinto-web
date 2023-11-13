@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "dayjs-nuxt", "nuxt-icon"],
+  modules: ["@nuxtjs/tailwindcss", "dayjs-nuxt", "nuxt-icon", "@nuxtjs/strapi"],
   nitro: {
     firebase: {
       gen: 2,
