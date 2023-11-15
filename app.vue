@@ -29,7 +29,7 @@
 </template>
 
 <script setup>
-import "~/assets/css/styles.css";
+import "~/assets/css/tailwind.css";
 
 const runtimeConfig = useRuntimeConfig();
 const appConfig = useAppConfig();
