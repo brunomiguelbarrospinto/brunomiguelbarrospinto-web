@@ -12,14 +12,20 @@
     <template v-if="dataUrl">
       <hr class="my-4" />
 
+      <CommonButtonComponent text="Download" @click="downloadImage" />
+
+      <hr class="my-4" />
+
       <CommonButtonComponent text="Share" @click="share" />
     </template>
   </div>
 </template>
 
 <script setup>
+import downloadjs from "downloadjs";
 const { convert, dataUrl } = useHTMLToImage();
 const { startShare, isSupported } = useNavigatorShare();
+const { dataUrlToFile } = useDataUrlToFile();
 
 const shareImageHtml = ref(null);
 
@@ -28,22 +34,18 @@ async function generate() {
 }
 
 async function share() {
-  alert("Navigator share: " + isSupported.value);
+  console.log(dataUrl.value);
+  const file = await dataUrlToFile(dataUrl.value, "my-image.png");
 
-  if (isSupported.value) {
-    const url = dataUrl.value;
-    fetch(url)
-      .then((res) => res.blob())
-      .then(async (blob) => {
-        const file = new File([blob], "File name", { type: "image/png" });
-        await startShare({
-          title: "My title",
-          text: "My text",
-          url: window.location.url,
-          files: [file],
-        });
-      });
-  }
+  await startShare({
+    title: "My title",
+    text: "My text",
+    files: [file],
+  });
+}
+
+function downloadImage() {
+  downloadjs(dataUrl.value, "my-image.png");
 }
 </script>
 

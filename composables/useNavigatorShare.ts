@@ -9,15 +9,13 @@ function useNavigatorShare() {
     url,
     files,
   }: {
-    title: string;
-    text: string;
-    url: string;
-    files: File[];
+    title?: string;
+    text?: string;
+    url?: string;
+    files?: File[];
   }) {
+    console.log(files);
     share({
-      title,
-      text,
-      url,
       files: files,
     });
   }

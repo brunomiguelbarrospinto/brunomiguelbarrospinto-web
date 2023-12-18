@@ -23,7 +23,9 @@
 
       <CommonNav />
     </header>
-    <main class="pt-32 px-40 max-w-6xl m-auto bg-white min-h-screen">
+    <main
+      class="pt-32 px-8 md:px-20 lg:px-40 max-w-6xl m-auto bg-white min-h-screen"
+    >
       <NuxtLayout>
         <NuxtPage />
       </NuxtLayout>
