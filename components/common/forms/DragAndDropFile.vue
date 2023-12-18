@@ -1,7 +1,7 @@
 <template>
   <div
     ref="dropZoneRef"
-    class="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10"
+    class="flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10"
   >
     <div class="text-center">
       <Icon
@@ -13,7 +13,7 @@
       <div class="mt-4 flex text-sm leading-6 text-gray-600">
         <label
           for="file-upload"
-          class="relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500"
+          class="relative cursor-pointer rounded-md bg-white font-semibold text-teal-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-teal-600 focus-within:ring-offset-2 hover:text-teal-500"
         >
           <span>Upload a file</span>
           <input

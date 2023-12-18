@@ -1,8 +1,7 @@
 <template>
-  <div>
-    LAst versuib
-    <header>
-      <nav>
+  <div class="bg-zinc-50 min-h-screen">
+    <header class="mt-6 flex justify-center fixed w-full">
+      <!-- <nav>
         <ul>
           <li><NuxtLink to="/">Index</NuxtLink></li>
           <li><NuxtLink to="/test">Test</NuxtLink></li>
@@ -20,11 +19,15 @@
             >
           </li>
         </ul>
-      </nav>
+      </nav> -->
+
+      <CommonNav />
     </header>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
+    <main class="pt-32 px-40 max-w-6xl m-auto bg-white min-h-screen">
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
+    </main>
   </div>
 </template>
 
