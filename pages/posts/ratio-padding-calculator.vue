@@ -1,8 +1,8 @@
 <template>
   <article>
     <header>
+      <CommonDateTime class="mb-3" :timestamp="1698427677000" />
       <CommonTitle class="mb-6" text="Ratio padding calculator" />
-      <CommonDateTime class="mb-6" :timestamp="1698427677000" />
     </header>
     <p>
       Enter the width and height of your element to calculate the vertical
