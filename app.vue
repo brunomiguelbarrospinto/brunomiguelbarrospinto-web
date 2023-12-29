@@ -25,6 +25,15 @@ useHead({
   },
 });
 
+useSeoMeta({
+  title: "Bruno Miguel Barros Pinto",
+  ogTitle: "Bruno Miguel Barros Pinto",
+  description: "Frontend Developer - VueJs lover",
+  ogDescription: "Frontend Developer - VueJs lover",
+  ogImage: "/img/share.jpg",
+  twitterCard: "summary_large_image",
+});
+
 // console.log(runtimeConfig);
 // console.log(appConfig);
 </script>
