@@ -101,8 +101,14 @@
   </div>
 </template>
 
-<script>
+<script setup>
 definePageMeta({
   layout: "simple",
 });
+
+import { useDataStore } from "~/stores/data";
+
+const data = useDataStore();
+
+//console.log(data.doubleCount);
 </script>

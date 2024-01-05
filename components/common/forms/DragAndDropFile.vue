@@ -37,7 +37,7 @@ const dropZoneRef = ref<HTMLDivElement>();
 
 function onDrop(files: File[] | null) {
   // called when files are dropped on zone
-  console.log(files);
+  //console.log(files);
 }
 
 const { isOverDropZone } = useDropZone(dropZoneRef, onDrop);

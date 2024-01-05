@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxtjs/strapi",
     "nuxt-gtag",
+    "@pinia/nuxt",
   ],
   gtag: {
     id: "",

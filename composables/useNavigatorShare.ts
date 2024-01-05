@@ -14,7 +14,7 @@ function useNavigatorShare() {
     url?: string;
     files?: File[];
   }) {
-    console.log(files);
+    //console.log(files);
     share({
       files: files,
     });

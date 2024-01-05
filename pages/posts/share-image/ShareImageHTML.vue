@@ -34,7 +34,7 @@ async function generate() {
 }
 
 async function share() {
-  console.log(dataUrl.value);
+  //console.log(dataUrl.value);
   const file = await dataUrlToFile(dataUrl.value, "my-image.png");
 
   await startShare({

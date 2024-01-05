@@ -95,7 +95,7 @@ const imageUrl = computed(
 );
 
 function setImage(file) {
-  console.log(file);
+  //console.log(file);
 }
 
 function calculatePadding() {
