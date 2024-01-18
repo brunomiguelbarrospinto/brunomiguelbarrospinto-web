@@ -1,4 +1,3 @@
-import { log } from 'console';
 <template>
   <article class="md:grid md:grid-cols-4 md:items-baseline space-y-10 my-10">
     <div class="md:col-span-3 group relative flex flex-col items-start">
@@ -18,7 +17,7 @@ import { log } from 'console';
       </h2>
 
       <CommonDateTime
-        class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
+        class="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
         :timestamp="props.post.timestamp"
       />
 
@@ -44,11 +43,6 @@ import { log } from 'console';
         </svg>
       </div>
     </div>
-
-    <CommonDateTime
-      class="mb-6 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
-      :timestamp="props.post.timestamp"
-    />
   </article>
 </template>
 

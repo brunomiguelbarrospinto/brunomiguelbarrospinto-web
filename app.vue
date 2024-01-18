@@ -21,7 +21,7 @@ const appConfig = useAppConfig();
 useHead({
   htmlAttrs: { class: "antialiased", lang: "en" },
   bodyAttrs: {
-    class: "",
+    class: "overflow-x-hidden",
   },
   link: [
     {
