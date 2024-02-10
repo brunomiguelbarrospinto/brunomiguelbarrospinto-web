@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "nuxt-gtag",
     "@pinia/nuxt",
     "@nuxtjs/sitemap",
+    "@nuxtjs/device",
   ],
   gtag: {
     id: "",
