@@ -2,9 +2,9 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "NITRO_PRESET=firebase nuxt build",
+    "build": "NITRO_PRESET=firebase nuxt build --dotenv .env.production",
     "deploy": "npx firebase deploy",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --dotenv .env",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"

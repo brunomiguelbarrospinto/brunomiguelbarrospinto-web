@@ -11,6 +11,6 @@ gtag("event", "screen_view", {
 });
 
 const { find } = useStrapi();
-const response = await find("pets");
-//console.log(response);
+const response = await find("experiences");
+console.log(response);
 </script>

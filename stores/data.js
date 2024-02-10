@@ -3,7 +3,9 @@ import { defineStore } from "pinia";
 
 export const useDataStore = defineStore("data", {
   state: () => {
-    return { count: 1 };
+    return {
+      count: 1,
+    };
   },
   // could also be defined as
   // state: () => ({ count: 0 })
@@ -16,3 +18,5 @@ export const useDataStore = defineStore("data", {
     },
   },
 });
+
+export default useDataStore;
