@@ -23,7 +23,7 @@ export const sizes = ["xs", "sm", "md", "lg", "xl"];
 </script>
 
 <script setup lang="ts">
-import { computed, PropType } from "vue";
+import { computed } from "vue";
 import IconComponent from "./IconComponent.vue";
 import IconLoadingAnimatedComponent from "./IconLoadingAnimatedComponent.vue";
 

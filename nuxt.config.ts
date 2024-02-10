@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/strapi",
     "nuxt-gtag",
     "@pinia/nuxt",
+    "@nuxtjs/sitemap",
   ],
   gtag: {
     id: "",
