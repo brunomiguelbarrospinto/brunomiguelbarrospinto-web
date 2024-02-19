@@ -7,7 +7,9 @@
     "dev": "nuxt dev --dotenv .env",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "storybook": "storybook dev --port 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -15,14 +17,27 @@
     "@nuxtjs/sitemap": "^5.1.0",
     "@nuxtjs/strapi": "^1.9.3",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "@types/node": "^18.16.19",
+    "@storybook-vue/nuxt-storybook": "0.0.1-latest.7",
+    "@types/node": "^18.17.5",
     "dayjs-nuxt": "^2.1.9",
     "firebase-admin": "^11.11.0",
     "firebase-functions": "^4.4.1",
     "firebase-functions-test": "^3.1.0",
     "nuxt": "^3.10.1",
     "nuxt-gtag": "^1.1.1",
-    "nuxt-icon": "^0.6.1"
+    "nuxt-icon": "^0.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "7.6.7",
+    "@storybook/vue3": "7.6.7",
+    "@storybook-vue/nuxt": "0.2.1",
+    "@nuxtjs/storybook": "7.0.0",
+    "@storybook/addon-links": "7.6.7",
+    "@storybook/builder-vite": "7.6.7",
+    "@storybook/addon-essentials": "7.6.7",
+    "@storybook/addon-interactions": "7.6.7",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/blocks": "7.6.7"
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",

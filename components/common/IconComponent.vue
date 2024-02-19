@@ -36,14 +36,21 @@ const props = defineProps({
 });
 
 const isMounted = ref(false);
-let heroicon: any;
-if (props.name) {
-  // eslint-disable-next-line
-  heroicon =
-    props.type === "solid"
-      ? (SolidIcons as any)[props.name]()
-      : (OutlineIcons as any)[props.name]();
-}
+// let heroicon: any;
+// if (props.name) {
+//   // eslint-disable-next-line
+//   heroicon =
+//     props.type === "solid"
+//       ? (SolidIcons as any)[props.name]()
+//       : (OutlineIcons as any)[props.name]();
+//}
+
+const heroicon = computed(() =>
+  props.type === "solid"
+    ? (SolidIcons as any)[props.name]()
+    : (OutlineIcons as any)[props.name]()
+);
+
 const classList = computed(() => {
   const { size } = props;
 

@@ -10,7 +10,9 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxtjs/sitemap",
     "@nuxtjs/device",
+    "@storybook-vue/nuxt-storybook",
   ],
+
   gtag: {
     id: "",
     // Additional configuration for the Google Analytics 4 property
