@@ -58,7 +58,9 @@
               {{ dayjsFormat(experience.startDate, "MMM YYYY") }}
             </time>
             <span aria-hidden="true"> — </span>
-            <time v-if="experience.currently">Present</time>
+            <time v-if="experience.currently" class="text-green-500 font-bold"
+              >Present</time
+            >
             <time v-else datetime="2024">
               {{ dayjsFormat(experience.endDate, "MMM YYYY") }}
             </time>
