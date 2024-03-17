@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "brunomiguelbarrospinto-tests",
+    "public": "coverage",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
