@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "brunomiguelbarrospinto-dev"
-  }
+    "default": "brunomiguelbarrospinto-web",
+    "brunomiguelbarrospinto-web": "brunomiguelbarrospinto-web"
+  },
+  "targets": {},
+  "etags": {}
 }

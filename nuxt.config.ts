@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "dayjs-nuxt",
     "nuxt-icon",
-    "@nuxtjs/strapi",
     "nuxt-gtag",
     "@pinia/nuxt",
     "@nuxtjs/sitemap",
@@ -32,7 +31,7 @@ export default defineNuxtConfig({
     apiSecret: "123",
     // Keys within public are also exposed client-side
     public: {
-      apiBase: process.env.NUXT_STRAPI_API_BASE,
+      apiBase: "api-base-url",
     },
   },
 });
