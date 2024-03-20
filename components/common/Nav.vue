@@ -31,6 +31,10 @@ const links = [
     href: "/experiences",
   },
   {
+    text: "Knowledge",
+    href: "/knowledge",
+  },
+  {
     text: "Posts",
     href: "/posts",
   },
