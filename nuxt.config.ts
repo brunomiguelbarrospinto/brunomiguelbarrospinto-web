@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import packageJson from "./package.json";
 
 export default defineNuxtConfig({
   modules: [
@@ -32,6 +33,8 @@ export default defineNuxtConfig({
     // Keys within public are also exposed client-side
     public: {
       apiBase: "api-base-url",
+      devDependencies: packageJson.devDependencies,
+      dependencies: packageJson.dependencies,
     },
   },
 });

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CommonTitle class="mb-6" text="My experieces" />
+    <CommonTitle class="mb-6" text="My experiences" />
     <IndexExperiences />
   </div>
 </template>
